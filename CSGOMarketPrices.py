@@ -76,7 +76,7 @@ def MainLoop(line, starting_line, cs_skins):
 
             # Item needs to be popular enough to easily sell. I set this number arbitrarily at 100 buyorders.
             # Item must also have at least a 20% difference between buyorder and price in order to make decent profit.
-            if buyorder_volume > 0 and highest_buyorder < usd_item_price:
+            if buyorder_volume > 100 and highest_buyorder < usd_item_price*.8:
                 ratio = highest_buyorder/usd_item_price
                 data = open('data.txt', 'a')
                 data.write("{}, {}, ${}, ${}, {}, {}, {}\n".format(
