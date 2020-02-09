@@ -13,7 +13,7 @@ currency_ref = {'$': 'USD', '£': 'GBP', '€': 'EUR', '¥': 'JPY', 'P': 'PHP', 
                 'R$': 'BRL', 'S$': 'SGD', 'Mex$': 'MXN', 'CDN$': 'CAD', 'NZ$': 'NZD', 'HK$': 'HKD', 'pуб': 'RUB',
                 'kr': 'SEK', 'Rp': 'IDR', 'RM': 'MYR', 'TL': 'TRY', 'R': 'ZAR'}
 
-# Possible wears a csgo item can have
+# Possible wears that a csgo item can have
 wears = ['Battle-Scarred', 'Well-Worn', 'Field-Tested', 'Minimal%20Wear', 'Factory%20New']
 
 
