@@ -4,4 +4,5 @@ This script scrapes price data from the CS:GO community market and analyzes whet
 ### Todo
 * Reformat to work with updated skin list
 * Add functionality to work with non-weapon skin items (e.g cases, pins, etc)
+* Implement better way to exit program
 * Add threading to improve performance
