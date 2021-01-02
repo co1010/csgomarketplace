@@ -3,7 +3,7 @@ This script scrapes price data from the CS:GO community market and analyzes whet
 
 ### Todo
 - [x] Reformat to work with updated skin list
-- [ ] Add functionality to work with non-weapon skin items (e.g cases, pins, etc)
-* Implement better way to exit program
-* Implement IP spoofing to circumvent "too many requests" error
-* Add threading to improve performance
+- [x] Add functionality to work with non-weapon skin items (e.g cases, pins, etc)
+- [ ] Implement better way to exit program
+- [ ] Implement IP spoofing to circumvent "too many requests" error
+- [ ] Add threading to improve performance
